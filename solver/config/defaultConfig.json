@@ -1,0 +1,50 @@
+{
+  "APIKEY": "sonic_4862cdc1d02c920746d64134",
+  "ACTIVE": true,
+  "THEME": "light",
+  "TITLES": ["POPULARCAPTCHA", "RECAPTCHA2", "AWSWAF", "BLS", "GEETEST","MTCAPTCHA"],
+  "CAPTCHAS": ["POPULARCAPTCHA", "RECAPTCHA2", "AWSWAF", "BLS", "GEETEST","MTCAPTCHA"],
+  "BLACKLIST": ["https://www.google.com", "https://github.com"],
+  "BLACKLISTENABLED": false,
+  "AUTOOPENENABLED": true,
+  "LOGENABLED": true,
+  "Local_lang": "en",
+  "NOTIFICATION": true,
+  "OPTIONS": {
+    "POPULARCAPTCHA": {
+      "ENABLED": true,
+      "ALWAYSSOLVE": true,
+      "AUTOOPEN": true,
+      "AUTOSOLVE": true,
+      "ENGLISH": true
+    },
+    "RECAPTCHA2": {
+      "ENABLED": true,
+      "ALWAYSSOLVE": true,
+      "AUTOOPEN": true,
+      "AUTOSOLVE": true,
+      "METHOD": "RECOGNITION"
+    },
+    "AWSWAF": {
+      "ENABLED": true,
+      "AUTOOPEN": true,
+      "AUTOSOLVE": true
+    },
+    "BLS": {
+      "ENABLED": true,
+      "AUTOOPEN": true,
+      "AUTOSOLVE": true
+    },
+    "GEETEST": {
+      "ENABLED": true,
+      "AUTOOPEN": true,
+      "AUTOSOLVE": true,
+      "SOLVETIME":5
+    },
+    "MTCAPTCHA": {
+      "ENABLED": true,
+      "AUTOSOLVE": true,
+      "METHOD": "RECOGNITION"
+    }
+  }
+}
